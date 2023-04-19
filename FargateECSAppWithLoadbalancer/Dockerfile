@@ -4,7 +4,7 @@ COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
 
-ARG USERNAME=user-name-goes-here
+ARG USERNAME=tester
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
